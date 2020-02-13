@@ -1,67 +1,134 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Batty's Coffee Stand</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style5.css">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="header-title-area">
-          <h1 class="logo">Sample Brog</h1>
-        </div>
-        <ul class="header-navigation">
-          <li><a href="#">ホーム</a></li>
-          <li><a href="#">カテゴリー一覧</a></li>
-          <li><a href="#">お問い合わせ</a></li>
-        </ul>
-      </div>
-    </header>
-    <div class="main">
-      <div class="container">
-        
-        <div class="left-contents">
-          <div class="card-contents">
-            <div class="left_img">
-              <div class="staff-list">
-                <img src="./staff_01.jpg" class="left-image">
-              </div>
-            </div>
-              <div class "left_text">
-                <p>"2018-01-17"</p>
-                <h3 class = "blog-title">"ブログタイトルがここに入ります。ブログタイトルがここに入ります"</h3>
-                <p class="information-list">ここにブログ概要が入ります。ここにブログ概要が入ります"</p>
-              </div>
-          </div>
-        </div><!--end left-contents-->
-              
-              
-          
-        <div class="right-contents">
-          <div class="card-contents">
-            <h2 class="text-title">新着記事</h2>
-            <div class="staff2-list-area">
-              <div class="staff2-list">
-                <img src="./staff_01.jpg" class="staff2-image">
-              </div>
-            </div>
-            <div class "left_text">
-              <p>"2018-01-17"</p>
-              <h3>"サンプルブログタイトル"</h3>
-            </div>
-          </div>
-        </div><!--end right-contents-->
-                
-              
-              
-              
-    
-            </div>
-          </div>
-  　<footer>
-      <p class="copyright">(C) 2017 Batty's Coffee Stand.</p>
-    </footer>
-　</body>
-</html>
+body {
+  background-color: #EFEFEF;
+}
+header {
+  margin-top: 20px;
+}
+
+.container {
+  width: 920px;
+  margin: 0 auto 40px auto;
+}
+.header-title-area {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-size: 32px;
+  text-align: center;
+}
+.text-sub {
+  color: #777;
+}
+.header-navigation {
+  width: 100%;
+  background-color: #333;
+  padding: 20px 0;
+}
+
+.header-navigation:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.header-navigation li {
+  float: left;
+  padding: 0 30px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.header-navigation li a {
+  color: #eee;
+  text-decoration: none;
+}
+.text-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.card-contents {
+  padding: 40px;
+  display: block;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.left-contents {
+  width: 600px;
+  margin-right: 20px;
+ float: left;
+}
+.blog-title{
+  color:blue;
+  font-size:20px;
+}
+.right-contents {
+  width: 300px;
+  float: left;
+}
+.information-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.information-list li {
+  margin-bottom: 10px;
+}
+.staff-list-area:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+.staff-list {
+  
+  width: 150px;
+  margin-right: 35px;
+float:left;
+}
+
+
+.staff-list:last-child {
+  margin-right: 0;
+}
+.left-image {
+  margin-bottom: 10px;
+  width: 120px;
+  height: 120px;
+  display:block;
+}
+.staff-name {
+ text-align: center;
+ float:left;
+}
+.copyright {
+  color: #777;
+  text-align: center;
+}
+.main:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+.staff2-image {
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+.left_img {
+  width:120px;
+  height:120px;
+  float:left;
+}
+.staff2-list {
+  float: left;
+}
+.staff2-image {
+  width: 40px;
+  height:40px;
+}
