@@ -63,7 +63,7 @@ header {
   margin-right: 20px;
  float: left;
 }
-.blog-title{
+.blog-title {
   color:blue;
   font-size:20px;
 }
@@ -71,9 +71,16 @@ header {
   width: 300px;
   float: left;
 }
+
+.right-title {
+  font-size: 12px;
+  float:right;
+}
+
 .information-list {
   list-style-type: none;
   padding-left: 0;
+  float:right;
 }
 
 .information-list li {
