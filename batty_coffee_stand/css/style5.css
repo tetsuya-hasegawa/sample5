@@ -52,7 +52,7 @@ header {
 }
 
 .card-contents {
-  padding: 40px;
+  padding: 30px;
   display: block;
   margin-bottom: 20px;
   background-color: #fff;
@@ -79,8 +79,7 @@ header {
 
 .information-list {
   list-style-type: none;
-  padding-left: 0;
-  float:right;
+  margin-left: 0;
 }
 
 .information-list li {
@@ -92,13 +91,13 @@ header {
   content: " ";
 }
 .staff-list {
-  
   width: 150px;
   margin-right: 35px;
 float:left;
 }
-
-
+.left_text {
+  float:right;
+}
 .staff-list:last-child {
   margin-right: 0;
 }
@@ -107,6 +106,9 @@ float:left;
   width: 120px;
   height: 120px;
   display:block;
+}
+.datetime { 
+  padding-right:20px;
 }
 .staff-name {
  text-align: center;
@@ -133,6 +135,8 @@ float:left;
   float:left;
 }
 .staff2-list {
+  width: 20px;
+  margin-right: 35px;
   float: left;
 }
 .staff2-image {
